@@ -1,0 +1,198 @@
+.bodyBackground {
+    background-color: #FDFCF8;
+}
+/* Navigation */
+header {
+    position: relative;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    margin-left: 680px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.logo img {
+    width: 200px;
+    height: 200px;
+}
+.sideNav {
+    position: fixed;
+    right: 0;
+    background-color: #E3DCBF;
+    height: 100%;
+    margin-top: -180px;
+    z-index: 2;
+  }
+  .sideNav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    color: rgb(40, 37, 9);
+    margin-right: 50px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
+  }
+  .sideNav .home {
+    margin-right: 60px;
+  }
+  .sideNav .uxContent {
+    margin-left: 60px;
+  }
+  .sideNav .aboutMe {
+    margin-right: 60px;
+  }
+  .sideNav .skills {
+    margin-left: 60px;
+  }
+/* Hero */
+.hero {
+    display: flex;
+    vertical-align: center;
+    text-align: center;
+    position: relative;
+    margin-top: 175px;
+    margin-left: 40%;
+}
+.firstName {
+    font-size: 100px;
+    margin-left: -170px;
+}
+.lastName {
+    font-size: 80px;
+    margin-left: -170px;
+    margin-top: -100px;
+}
+.heroTitle {
+    margin-left: -170px;
+    margin-bottom: 100px;
+}
+.heroDes {
+    margin-left: -170px;
+    margin-top: -60px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+/* My Work */
+.myWork {
+  display: grid;
+  padding: 100px;
+  margin-bottom: 250px;
+  margin-left: 150px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    “travel recreation wasted”
+    “travelImg recreationImg wastedImg”;
+}
+.travel {
+  grid-area: travel;
+}
+.recreation {
+  grid-area: recreation;
+}
+.wasted {
+  grid-area: wasted;
+}
+.travelImg {
+  grid-area: travelImg;
+}
+.recreationImg {
+  grid-area: recreationImg;
+}
+.wastedImg {
+  grid-area: wastedImg;
+}
+img {
+  margin-top: -120px;
+  margin-left: -150px;
+}
+.travel {
+  margin-left: -50px;
+}
+.recreation {
+  margin-left: -110px;
+}
+.wasted {
+  margin-left: -50px;
+}
+.wastedImg img {
+  height: 300px;
+  width: 300px;
+}
+.travelImg img {
+  height: 300px;
+  width: 300px;
+}
+.recreationImg img {
+  height: 300px;
+  width: 300px;
+}
+/* Skills */
+.uxSkills {
+  display: grid;
+  padding: 300px;
+  padding-top: 0px;
+  margin-bottom: -50px;
+  margin-left: -100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  “design stamc visual”
+  “uxDes stamcDes visualDes”;
+}
+.uxDesign{
+  grid-area: design;
+}
+.stamc{
+  grid-area: stamc;
+}
+.visual{
+  grid-area: visual;
+}
+.uxDes{
+  grid-area: uxDes;
+}
+.stamcDes{
+  grid-area: stamcDes;
+}
+.visualDes{
+  grid-area: visualDes;
+}
+.skills p {
+  padding-right: 20px;
+}
+.skillTitle {
+  margin-left: 200px;
+}
+.skills {
+  margin-top: -100px;
+}
+/* Footer */
+.footer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: centerd;
+  background-color: #E3DCBF;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  height: 75px;
+}
+.footer p {
+  margin-right: 10px;
+  color: black;
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.footer .contact {
+  margin-left: 510px;
+}
